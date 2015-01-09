@@ -54,30 +54,30 @@
             }
             else {
             echo "It is not a number";
-            var_dump(is_string(‘XYZ’));
-            var_dump(is_string(‘8008’));
-            var_dump(is_string(123));
-            var_dump(is_string(false));
+            var_dump(is_integer(‘XYZ’));
+            var_dump(is_integer(‘8008’));
+            var_dump(is_integer(123));
+            var_dump(is_integer(false));
             }
             if (is_object()) {
                 echo "it is an object";
             }
             else {
             echo "It is not an object";
-            var_dump(is_string(‘XYZ’));
-            var_dump(is_string(‘8008’));
-            var_dump(is_string(123));
-            var_dump(is_string(false));
+            var_dump(is_object(‘XYZ’));
+            var_dump(is_object(‘8008’));
+            var_dump(is_object(123));
+            var_dump(is_object(false));
             }
-            if (is_integer()) {
-                echo "it is a number";
+            if (is_string()) {
+                echo "it is a string";
             }
             else {
-            echo "It is not a number";
-            var_dump(is_string(‘XYZ’));
-            var_dump(is_string(‘8008’));
-            var_dump(is_string(123));
-            var_dump(is_string(false));
+                echo "It is not a string";
+                var_dump(is_string(‘XYZ’));
+                var_dump(is_string(‘8008’));
+                var_dump(is_string(123));
+                var_dump(is_string(false));
             }
 ?>
     </body>
