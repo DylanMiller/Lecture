@@ -48,5 +48,37 @@
             $sweater2 = new sweater();
             print $sweater2­>color;
         ?>
+        <?php
+            if (is_integer()) {
+                echo "it is a number";
+            }
+            else {
+            echo "It is not a number";
+            var_dump(is_string(‘XYZ’));
+            var_dump(is_string(‘8008’));
+            var_dump(is_string(123));
+            var_dump(is_string(false));
+            }
+            if (is_object()) {
+                echo "it is an object";
+            }
+            else {
+            echo "It is not an object";
+            var_dump(is_string(‘XYZ’));
+            var_dump(is_string(‘8008’));
+            var_dump(is_string(123));
+            var_dump(is_string(false));
+            }
+            if (is_integer()) {
+                echo "it is a number";
+            }
+            else {
+            echo "It is not a number";
+            var_dump(is_string(‘XYZ’));
+            var_dump(is_string(‘8008’));
+            var_dump(is_string(123));
+            var_dump(is_string(false));
+            }
+?>
     </body>
 </html>
